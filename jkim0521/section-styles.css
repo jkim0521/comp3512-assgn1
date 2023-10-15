@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    position: relative;
+    width: calc(25% - 10px);  /* Assuming there's a tiny gap between each section */
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* or whatever height you want */
+    color: #fff;
+}
+
+section h2 {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px;  /* Adjust as needed */
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background for better readability */
+    padding: 5px 10px;
+}
